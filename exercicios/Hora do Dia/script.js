@@ -1,12 +1,11 @@
 function carregar(){
   var msg=document.getElementById("msg")
-var img=document.getElementById("img")
+  var img=document.getElementById("img")
   var manha=document.getElementById("imagem")
   var data=new Date
   var hora=data.getHours()
   var minuto=data.getMinutes()
-  var segundo=data.getSeconds()
-  msg.innerHTML="Agora são: "+hora+"h"+":"+minuto+"min"+":"+segundo+"seg"
+  msg.innerHTML="Agora são: "+hora+"h"+":"+minuto+"min"
 
 if(hora>=0 && hora <12){
   //BOM DIA
