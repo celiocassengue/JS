@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Usando Seletores JavaScript</h1>
+        </header>
+        <section>
+            <article>
+                <p id="primeiro">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem id sed nam culpa. Maiores quaerat sint reprehenderit ex ullam laborum blanditiis vitae dolor, animi corporis, voluptates excepturi officiis a debitis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptatibus corrupti illum fuga quia dolorum odio dicta dolore enim optio laudantium quam incidunt facilis, nesciunt, quasi ducimus facere! Perferendis, veritatis?
+                </p>
+                
+                <p id="segundo">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem id sed nam culpa. Maiores quaerat sint reprehenderit ex ullam laborum blanditiis vitae dolor, animi corporis, voluptates excepturi officiis a debitis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptatibus corrupti illum fuga quia dolorum odio dicta dolore enim optio laudantium quam incidunt facilis, nesciunt, quasi ducimus facere! Perferendis, veritatis?
+                </p>
+            </article>
+        </section>
+    </main>
+    <script>
+        var primeiro = document.querySelector('#primeiro')
+        document.write(primeiro.innerHTML)
+    </script>
+</body>
+</html>
