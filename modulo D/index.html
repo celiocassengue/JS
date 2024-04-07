@@ -9,13 +9,15 @@
     <p>Qual o seu país</p>
     <input type="text" name="pais" id="pais">
     <input type="button" value="verificar" onclick="clicar()">
-    <p id="res"></p>
+    <p id="res">
+         
+    </p>
     <script>
         function clicar(){
             var p = document.querySelector("#pais")
-            var r = document.querySelector("#res")
-            if(p==EUA){
-                document.write("America!")
+            var res = document.querySelector("#res")
+            if(p == EUA){
+                res.innerHTML += "America!"
             }
         }
     </script>
