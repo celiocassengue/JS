@@ -11,7 +11,7 @@ if(age<18){
 
 //Condições aninhadas
 /*
-var data = new Date
+var data = new Date()
 var hour = data.getHours() //var hour = 22 
 var min = data.getMinutes()
 
@@ -26,7 +26,7 @@ if(hour<12){
 } */
 
 //Condições múltiplas
-
+/*
 var nome =1
 switch(nome){
     case 1:
@@ -45,4 +45,4 @@ switch(nome){
     "sem registros"
     break
 
-}
+} */
